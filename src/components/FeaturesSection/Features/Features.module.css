@@ -1,0 +1,14 @@
+.features-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.icon-big {
+  display: block;
+  font-size: 200%;
+  color: #e67e22;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
