@@ -1,5 +1,5 @@
 import classes from "./MainHeader.module.css";
-import logoImg from "./images/logo-white.png";
+import logoImg from "../images/logo-white.png";
 
 const MainHeader = () => {
   return (
