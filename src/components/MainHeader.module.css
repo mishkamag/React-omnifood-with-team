@@ -1,0 +1,97 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/src/components/images/hero.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+.formNav {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 7rem;
+  width: auto;
+  float: left;
+  margin: 1.5rem;
+}
+
+.mainNav {
+  float: right;
+  list-style: none;
+  margin-top: 3.5rem;
+  font-size: 90%;
+}
+
+.mainNav li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.mainNav li a:link,
+.mainNav li a:visited {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 110%;
+  padding-bottom: 0.5rem;
+}
+
+.mainNav li a:hover,
+.mainNav li a:active {
+  border-bottom: 2px solid #e67e22;
+}
+
+.heroText {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 2rem;
+  margin-left: 2.2rem;
+}
+
+.heroText a {
+  font-size: 95%;
+}
+
+.heroText h1 {
+  font-size: 250%;
+}
+
+.btn,
+.fullBtn,
+.ghostBtn {
+  display: inline-block;
+  margin-right: 1rem;
+  border: 1px solid #e67e22;
+  border-radius: 15rem;
+  padding: 0.8rem 2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.fullBtn:link,
+.fullBtn:visited {
+  background-color: #e67e22;
+}
+
+.fullBtn:hover,
+.fullBtn:active {
+  background-color: #cf711e;
+}
+
+.ghostBtn:link,
+.ghostBtn:visited {
+  color: #e67e22;
+}
+
+.ghostBtn:hover,
+.ghostBtn:active {
+  background-color: #cf711e;
+  color: #fff;
+}
